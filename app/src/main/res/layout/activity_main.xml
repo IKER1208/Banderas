@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#006847"
+        />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:background="@android:color/background_light"
+        android:layout_height="389dp"
+        android:rotation="90"
+        android:padding="@android:dimen/app_icon_size"
+        app:srcCompat="@drawable/bandera" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="337dp"
+        android:background="#AD1519" />
+
+</LinearLayout>
